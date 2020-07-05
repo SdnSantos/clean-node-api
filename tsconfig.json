@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    // caminho onde irá gerar o código em JS
+    "outDir": "./dist",
+    // para usar import/export no lugar no require
+    "module": "commonjs",
+    "target": "ES2019",
+    // irá converter automaticamente nos módulos que usam o require
+    // caso colocarmos o import
+    "esModuleInterop": true,
+    // para permitir incluir no dist os arquivos de configuração que
+    // estiverem em JS ao invés de JSON
+    "allowJs": true,
+  }
+}
