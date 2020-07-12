@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {   
+  "scripts": {
     "test": "jest --passWithNoTests --silent --noStackTrace --runInBand",
     "test:verbose": "jest --passWithNoTests --runInBand",
     "test:unit": "yarn test -- --watch -c jest-unit-config.js",
@@ -40,6 +40,8 @@
     "typescript": "^3.9.6"
   },
   "dependencies": {
-    "npm-check": "^5.9.2"
+    "@types/validator": "^13.1.0",
+    "npm-check": "^5.9.2",
+    "validator": "^13.1.1"
   }
 }
